@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    transition: .5s;
+}
+
+body{
+    background-color: #13131D;
+}
+
+a,li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* navigation */
+.navigation ul{
+    display: flex;
+    gap: 40px;
+}
+  
+.navigation a:hover{
+    
+    color: #00A3FF;
+}
+
+.buttons button{
+    padding: 15px 30px;
+    border-radius: 8px;
+    background: #202E48;
+    border:none
+}
+
+.buttons button:hover{
+    background: #00A3FF;
+}
+
+/* main */
+main{
+    margin-top: 250px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+}
+.signupform{
+    width: 1000px;
+    align-self: center;
+    border-radius: 20px;
+    background: rgba(37, 36, 52, 0.35);
+    padding: 60px 65px;
+    position: relative;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+}
+
+.signuplogo{
+    position: absolute;
+    background-color: #252434;
+    top: -60px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signuptitle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signuptitle h1{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+}
+.signuptitle p{
+    color: #AEAEAE;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+}
+.emailbutton{
+    width: 100%;
+    padding: 30px 55px;
+    border-radius: 10px;
+    background: #13131D;
+    border: none;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.signupbuttons{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 70px;
+}
+
+.signupbuttons button{
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF;
+    color: #5C5C5C;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 25px 0;
+    border: none;
+}
+.signupbuttons button:hover{
+    background: #00A3FF;
+    color: #FFF;
+}
+
+.subtitle{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* footer */
+footer{
+    margin-top: 140px;
+    background: rgba(27, 27, 39, 0.90);
+    padding: 30px 0;
+}
+footer .container{
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-updates{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-menu-updates > img{
+    width: fit-content;
+}
+.updates{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.updates-form{
+    display: flex;
+    gap: 0;
+}
+.updates-form input{
+    padding: 10px;
+    border-radius: 5px;
+    background: #13131D;    
+    border: none;
+    color: #696969;
+}
+
+.updates-form button{
+    border-radius: 8px;
+    background: #202E48;
+    padding: 10px  30px;
+    border: none;
+}
+.updates-form button:hover{
+    background: #00A3FF;
+}
+
+.footer-menu-navigation{
+    display: flex;
+    gap: 100px;
+}
+.menu-navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+.menu-navigation ul{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.copy{
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+}
